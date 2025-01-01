@@ -1,0 +1,8 @@
+type SkillCraftingData {
+  Id: string
+  Characters: Characters
+  ListBackground: string
+  Icon: string
+  ConsoleIcon: string
+  Name: string
+}

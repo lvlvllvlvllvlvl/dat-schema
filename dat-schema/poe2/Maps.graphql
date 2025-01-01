@@ -1,0 +1,12 @@
+type Maps @tags(list: ["item:def", "item:recipe"]) {
+  BaseItemTypes: BaseItemTypes @unique
+  Regular_WorldAreas: WorldAreas
+  MonsterPacks: [MonsterPacks]
+  AchievementItem: AchievementItems
+  _: string
+  Tier: i32
+  MapSeries: i32
+  _: bool
+  _: bool
+  _: bool
+}
