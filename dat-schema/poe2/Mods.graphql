@@ -1,44 +1,38 @@
 type Mods @tags(list: ["crafting"]) {
   Id: string @unique
   HASH16: u16
-  ModTypeKey: ModType
+  ModType: ModType
   Level: i32
-  StatsKey1: Stats
-  StatsKey2: Stats
-  StatsKey3: Stats
-  StatsKey4: Stats
+  Stat1: Stats
+  Stat2: Stats
+  Stat3: Stats
+  Stat4: Stats
   Domain: ModDomains
   Name: string
   GenerationType: ModGenerationType
   Families: [ModFamily]
-  Stat1Min: i32
-  Stat1Max: i32
-  Stat2Min: i32
-  Stat2Max: i32
-  Stat3Min: i32
-  Stat3Max: i32
-  Stat4Min: i32
-  Stat4Max: i32
-  SpawnWeight_TagsKeys: [Tags]
+  Stat1Value: i32 @interval
+  Stat2Value: i32 @interval
+  Stat3Value: i32 @interval
+  Stat4Value: i32 @interval
+  SpawnWeight_Tags: [Tags]
   SpawnWeight_Values: [i32]
-  TagsKeys: [Tags]
-  GrantedEffectsPerLevelKeys: [GrantedEffectsPerLevel]
+  Tags: [Tags]
+  GrantedEffectsPerLevel: [GrantedEffectsPerLevel]
   _: [i32]
   MonsterMetadata: string
   MonsterKillAchievements: [AchievementItems]
   ChestModType: [ModType]
-  Stat5Min: i32
-  Stat5Max: i32
-  StatsKey5: Stats
-  FullAreaClear_AchievementItemsKey: [AchievementItems]
-  AchievementItemsKey: [AchievementItems]
-  GenerationWeight_TagsKeys: [Tags]
+  Stat5Value: i32 @interval
+  Stat5: Stats
+  FullAreaClear_AchievementItems: [AchievementItems]
+  AchievementItems: [AchievementItems]
+  GenerationWeight_Tags: [Tags]
   GenerationWeight_Values: [i32]
   ModifyMapsAchievements: [AchievementItems]
   IsEssenceOnlyModifier: bool
-  Stat6Min: i32
-  Stat6Max: i32
-  StatsKey6: Stats
+  Stat6Value: i32 @interval
+  Stat6: Stats
   MaxLevel: i32
   _: bool
   CraftingItemClassRestrictions: [ItemClasses]
@@ -47,12 +41,12 @@ type Mods @tags(list: ["crafting"]) {
   _: [GrantedEffectsPerLevel]
   Heist_SubStatValue1: i32
   Heist_SubStatValue2: i32
-  Heist_StatsKey0: Stats
-  Heist_StatsKey1: Stats
+  Heist_Stat0: Stats
+  Heist_Stat1: Stats
   Heist_AddStatValue1: i32
   Heist_AddStatValue2: i32
-  InfluenceTypes: InfluenceTypes
-  ImplicitTagsKeys: [Tags]
+  InfluenceType: InfluenceTypes
+  ImplicitTags: [Tags]
   _: bool
   _: i32
   _: i32

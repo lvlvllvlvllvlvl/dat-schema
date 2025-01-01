@@ -26,6 +26,6 @@ type ItemClasses @tags(list: ["crafting"]) {
   ItemClassFlags: [i32]
   Unmodfiable: bool
   CanBeFractured: bool
-  _: rid # Only charms have a value
+  EquipAchievement: AchievementItems
   UsableInMapDevice: bool
 }

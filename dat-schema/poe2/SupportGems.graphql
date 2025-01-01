@@ -1,5 +1,5 @@
 type SupportGems {
-  SkillGemsKey: SkillGems
+  SkillGem: SkillGems
   _: i32
   Icon: string  @file(ext: ".dds")
 }

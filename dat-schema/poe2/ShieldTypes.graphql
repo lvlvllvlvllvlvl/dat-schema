@@ -1,5 +1,5 @@
 type ShieldTypes @tags(list: ["item:def"]) {
-  BaseItemTypesKey: BaseItemTypes @unique
+  BaseItemType: BaseItemTypes @unique
   Block: i32
   _: i32
 }

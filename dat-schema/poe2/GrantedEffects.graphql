@@ -10,13 +10,13 @@ type GrantedEffects {
   ExcludedActiveSkillTypes: [ActiveSkillType]
   "This support gem only supports active skills that come from gem items"
   SupportsGemsOnly: bool
-  HASH32: i32
+  HASH32: u32
   CannotBeSupported: bool
-  _: i32
+  LifeLeech: i32
   CastTime: i32
   ActiveSkill: ActiveSkills
   IgnoreMinionTypes: bool
-  _: bool
+  CooldownNotRecoverDuringActive: bool
   AddedMinionActiveSkillTypes: [ActiveSkillType]
   Animation: Animation
   MultiPartAchievement: MultiPartAchievements
@@ -30,7 +30,7 @@ type GrantedEffects {
   _: bool
   StatSet: GrantedEffectStatSets
   AdditionalStatSets: [GrantedEffectStatSets]
-  _: string
+  Audio: string
   CostTypes: [CostTypes]
   _: bool
   _: [i32]

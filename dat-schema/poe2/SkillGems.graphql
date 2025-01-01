@@ -1,9 +1,9 @@
 type SkillGems @tags(list: ["item:def"]) {
-  BaseItemTypesKey: BaseItemTypes @unique
+  BaseItemType: BaseItemTypes @unique
   StrengthRequirementPercent: i32
   DexterityRequirementPercent: i32
   IntelligenceRequirementPercent: i32
-  VaalVariant_BaseItemTypesKey: BaseItemTypes
+  VaalVariant_BaseItemType: BaseItemTypes
   IsVaalVariant: bool
   MinionGlobalSkillLevelStat: Stats
   GemType: i32

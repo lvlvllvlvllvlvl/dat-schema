@@ -3,15 +3,15 @@ type Stats @tags(list: ["crafting"]) {
   _: bool
   IsLocal: bool
   IsWeaponLocal: bool
-  Semantics: StatSemantics
+  Semantic: StatSemantics
   Text: string
   _: bool
   IsVirtual: bool
-  MainHandAlias_StatsKey: Stats
-  OffHandAlias_StatsKey: Stats
+  MainHandAlias_Stat: Stats
+  OffHandAlias_Stat: Stats
   _: bool
   HASH32: i32
-  BelongsActiveSkillsKey: [ActiveSkills] @ref(column: "Id")
+  BelongsActiveSkills: [ActiveSkills] @ref(column: "Id")
   Category: PassiveSkillStatCategories
   _: bool
   _: bool
@@ -20,6 +20,6 @@ type Stats @tags(list: ["crafting"]) {
   """
   IsScalable: bool
   ContextFlags: [VirtualStatContextFlags]
-  _: [rid]
-  _: bool
+  DotFlag: [VirtualStatContextFlags]
+  WeaponHandCheck: bool
 }

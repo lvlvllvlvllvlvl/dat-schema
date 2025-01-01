@@ -1,5 +1,5 @@
 type CraftingBenchOptions @tags(list: ["crafting"]) {
-  _: rid
+  HideoutNPC: HideoutNPCs
   Order: i32
   AddMod: Mods
   Cost_BaseItemTypes: [BaseItemTypes]
@@ -24,16 +24,16 @@ type CraftingBenchOptions @tags(list: ["crafting"]) {
   UnveilsRequired: i32
   UnveilsRequired2: i32
   _: [rid]
-  _: [rid]
+  KalandraAchievement: [AchievementItems]
   _: i32
   _: i32
-  _: rid
+  VeiledMod: Mods
   AddEnchantment: Mods
   SortCategory: CraftingBenchSortCategories
-  _: rid
+  ModType: ModType
   _: bool
   _: i32
-  _: Stats
-  _: Stats
-  _: Stats
+  Stat1: Stats
+  Stat2: Stats
+  Stat3: Stats
 }

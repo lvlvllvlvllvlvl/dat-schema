@@ -6,7 +6,7 @@ type GrantedEffectStatSets {
   ConstantStatsValues: [i32]
   BaseEffectiveness: f32
   IncrementalEffectiveness: f32
-  _: f32
+  DamageIncrementalEffectiveness: f32
   _: [rid]
   _: bool
 }

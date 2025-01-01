@@ -1,5 +1,5 @@
 type WeaponTypes @tags(list: ["item:def"]) {
-  BaseItemTypesKey: BaseItemTypes @unique
+  BaseItemType: BaseItemTypes @unique
   Critical: i32
   _: rid
   "1000 / speed -> attacks per second"

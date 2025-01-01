@@ -16,7 +16,7 @@ type PassiveSkills {
   IsJustIcon: bool
   AchievementItem: AchievementItems
   IsJewelSocket: bool
-  AscendancyKey: Ascendancy
+  Ascendancy: Ascendancy
   IsAscendancyStartingNode: bool
   ReminderStrings: [ReminderText]
   SkillPointsGranted: i32
@@ -32,7 +32,7 @@ type PassiveSkills {
   MasteryGroup: PassiveSkillMasteryGroups
   Group: AtlasPassiveSkillTreeGroupType
   SoundEffect: SoundEffects
-  _: string
+  AtlasnodeGroup: string
   _: i32
   _: i32
   _: i32

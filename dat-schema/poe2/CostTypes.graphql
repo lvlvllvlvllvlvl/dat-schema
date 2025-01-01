@@ -1,7 +1,7 @@
 type CostTypes {
   Id: string @unique
-  StatsKey: Stats
+  Stat: Stats
   FormatText: string
-  _: i32
-  _: bool
+  Divisor: i32
+  PerMinute: bool
 }

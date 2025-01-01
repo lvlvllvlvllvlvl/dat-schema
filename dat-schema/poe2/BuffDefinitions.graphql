@@ -4,15 +4,15 @@ type BuffDefinitions {
   Invisible: bool
   Removable: bool
   Name: string
-  StatsKeys: [Stats]
+  Stats: [Stats]
+  CancelOnDeath: bool
+  MergeMode: BuffMergeModes
+  ShowCount: bool
+  Maximum_Stat: Stats
+  Current_Stat: Stats
   _: bool
   _: i32
-  _: bool
-  Maximum_StatsKey: Stats
-  Current_StatsKey: Stats
-  _: bool
-  _: i32
-  BuffVisualsKey: BuffVisuals
+  BuffVisual: BuffVisuals
   _: bool
   _: bool
   BuffCategory: i32
@@ -22,24 +22,24 @@ type BuffDefinitions {
   _: bool
   BuffLimit: i32
   _: bool
-  Id2: string
+  Implementation: string
   IsRecovery: bool
   _: bool
-  _: rid
+  MinStat: Stats
   _: bool
-  _: i32
+  UIStackMode: i32
   _: bool
-  _: bool
+  IsSkillBuff: bool
   _: i32
   _: [i32]
   _: bool
   _: bool
   _: [rid]
   _: bool
-  _: [Stats]
-  BinaryStats: [Stats]
-  _: [Stats]
-  _: [Stats]
+  Stats2: [Stats]
+  GrantedFlags: [Stats]
+  GrantedStats: [Stats]
+  ConditionStats: [Stats]
   _: bool
   _: bool
   _: bool

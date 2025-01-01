@@ -1,5 +1,5 @@
 type UtilityFlaskBuffs {
-  BuffDefinitionsKey: BuffDefinitions
+  BuffDefinition: BuffDefinitions
   StatValues: [i32]
   StatValues2: [i32]
   _: rid  

@@ -21,14 +21,14 @@ type ItemVisualIdentity {
   ScionShape: string
   _: rid
   _: i32
-  Pickup_AchievementItemsKeys: [AchievementItems]
+  Pickup_AchievementItems: [AchievementItems]
   SMFiles: [string] @file(ext: ".sm")
-  Identify_AchievementItemsKeys: [AchievementItems]
+  Identify_AchievementItems: [AchievementItems]
   EPKFile: string @file(ext: ".epk")
-  Corrupt_AchievementItemsKeys: [AchievementItems]
+  Corrupt_AchievementItems: [AchievementItems]
   IsAlternateArt: bool
   _: bool
-  CreateCorruptedJewelAchievementItemsKey: AchievementItems
+  CreateCorruptedJewelAchievementItem: AchievementItems
   AnimationLocation: string
   _: string
   _: string
