@@ -3,12 +3,12 @@ type Stats @tags(list: ["crafting"]) {
   _: bool
   IsLocal: bool
   IsWeaponLocal: bool
-  Semantics: StatSemantics
+  Semantic: StatSemantics
   Text: string
   _: bool
   IsVirtual: bool
-  MainHandAlias_Stats: Stats
-  OffHandAlias_Stats: Stats
+  MainHandAlias_Stat: Stats
+  OffHandAlias_Stat: Stats
   _: bool
   HASH32: i32
   BelongsActiveSkills: [ActiveSkills] @ref(column: "Id")

@@ -1,7 +1,7 @@
 type HideoutNPCs {
-  Hideout_NPCs: NPCs
+  Hideout_NPC: NPCs
   Regular_NPCs: [NPCs]
-  HideoutDoodads: HideoutDoodads
+  HideoutDoodad: HideoutDoodads
   NPCMaster: i32
   _: rid
   _: rid

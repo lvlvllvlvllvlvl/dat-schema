@@ -5,7 +5,7 @@ type GemEffects {
   SupportText: string
   SupportName: string
   GemTags: [GemTags]
-  Consumed_Mods: Mods
+  Consumed_Mod: Mods
   "Used by gem icon shader https://gist.github.com/zao/08878df57aba605e5fa1e6373f2dce02"
   ItemColor: i32
   _: [rid]

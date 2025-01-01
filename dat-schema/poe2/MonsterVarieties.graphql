@@ -1,6 +1,6 @@
 type MonsterVarieties {
   Id: string @unique
-  MonsterTypesKey: MonsterTypes
+  MonsterType: MonsterTypes
   MovementSpeed: i32
   ObjectSize: i32
   MinimumAttackDistance: i32
@@ -30,7 +30,7 @@ type MonsterVarieties {
   SpotlightColour3: i32
   GrantedEffects: [GrantedEffects]
   AISFile: string @file(ext: ".ais")
-  ModsKeys2: [Mods]
+  Mods2: [Mods]
   Stance: string
   _: rid
   Name: string
@@ -43,8 +43,8 @@ type MonsterVarieties {
   Weapon1_ItemVisualIdentity: [ItemVisualIdentity]
   Weapon2_ItemVisualIdentity: [ItemVisualIdentity]
   Back_ItemVisualIdentity: ItemVisualIdentity
-  MainHand_ItemClasses: ItemClasses
-  OffHand_ItemClasses: ItemClasses
+  MainHand_ItemClass: ItemClasses
+  OffHand_ItemClass: ItemClasses
   Helmet_ItemVisualIdentity: ItemVisualIdentity
   _: i32
   KillSpecificMonsterCount_AchievementItems: [AchievementItems]

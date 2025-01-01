@@ -1,15 +1,15 @@
 type CurrencyItems @tags(list: ["item:def", "item:recipe"]) {
-  BaseItemTypes: BaseItemTypes @unique
+  BaseItemType: BaseItemTypes @unique
   StackSize: i32
   CurrencyUseType: i32
   Action: string
   Directions: string
   "Full stack transforms into this item"
-  FullStack_BaseItemTypes: BaseItemTypes
+  FullStack_BaseItemType: BaseItemTypes
   Description: string
   Usage_AchievementItems: [AchievementItems]
   Scroll: bool
-  Possession_AchievementItems: AchievementItems
+  Possession_AchievementItem: AchievementItems
   _: [rid]
   _: [i32]
   CurrencyTab_StackSize: i32

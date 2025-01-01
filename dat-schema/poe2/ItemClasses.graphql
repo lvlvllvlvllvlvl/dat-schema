@@ -26,6 +26,6 @@ type ItemClasses @tags(list: ["crafting"]) {
   ItemClassFlags: [i32]
   Unmodfiable: bool
   CanBeFractured: bool
-  EquipAchievements: AchievementItems
+  EquipAchievement: AchievementItems
   UsableInMapDevice: bool
 }

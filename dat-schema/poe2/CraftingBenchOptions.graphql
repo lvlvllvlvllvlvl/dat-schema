@@ -27,7 +27,7 @@ type CraftingBenchOptions @tags(list: ["crafting"]) {
   KalandraAchievement: [AchievementItems]
   _: i32
   _: i32
-  VeiledMods: Mods
+  VeiledMod: Mods
   AddEnchantment: Mods
   SortCategory: CraftingBenchSortCategories
   ModType: ModType

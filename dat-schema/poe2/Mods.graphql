@@ -41,11 +41,11 @@ type Mods @tags(list: ["crafting"]) {
   _: [GrantedEffectsPerLevel]
   Heist_SubStatValue1: i32
   Heist_SubStatValue2: i32
-  Heist_StatsKey0: Stats
-  Heist_StatsKey1: Stats
+  Heist_Stat0: Stats
+  Heist_Stat1: Stats
   Heist_AddStatValue1: i32
   Heist_AddStatValue2: i32
-  InfluenceTypes: InfluenceTypes
+  InfluenceType: InfluenceTypes
   ImplicitTags: [Tags]
   _: bool
   _: i32

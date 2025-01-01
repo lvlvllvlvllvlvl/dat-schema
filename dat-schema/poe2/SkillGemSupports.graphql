@@ -1,4 +1,4 @@
 type SkillGemSupports {
-  SkillGems: SkillGems
+  SkillGem: SkillGems
   Supports: [SkillGems]
 }

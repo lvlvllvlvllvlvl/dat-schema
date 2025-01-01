@@ -28,7 +28,7 @@ type ItemVisualIdentity {
   Corrupt_AchievementItems: [AchievementItems]
   IsAlternateArt: bool
   _: bool
-  CreateCorruptedJewelAchievementItems: AchievementItems
+  CreateCorruptedJewelAchievementItem: AchievementItems
   AnimationLocation: string
   _: string
   _: string

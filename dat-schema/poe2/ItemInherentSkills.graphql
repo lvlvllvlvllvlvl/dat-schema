@@ -1,5 +1,5 @@
 type ItemInherentSkills {
-  BaseItemTypes: BaseItemTypes
+  BaseItemType: BaseItemTypes
   SkillsGranted: [SkillGems]
   IsWeapon: bool
 }

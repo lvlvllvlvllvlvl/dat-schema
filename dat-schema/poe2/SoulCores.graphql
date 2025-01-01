@@ -1,7 +1,7 @@
 type SoulCores {
-  BaseItemTypes: BaseItemTypes
-  StatsKeysWeapon: [Stats]
+  BaseItemType: BaseItemTypes
+  StatsWeapon: [Stats]
   StatsValuesWeapon: [i32]
-  StatsKeysArmour: [Stats]
+  StatsArmour: [Stats]
   StatsValuesArmour: [i32]
 }

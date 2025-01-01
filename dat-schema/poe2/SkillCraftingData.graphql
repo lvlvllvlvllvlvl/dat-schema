@@ -1,6 +1,6 @@
 type SkillCraftingData {
   Id: string
-  Characters: Characters
+  Character: Characters
   ListBackground: string
   Icon: string
   ConsoleIcon: string
