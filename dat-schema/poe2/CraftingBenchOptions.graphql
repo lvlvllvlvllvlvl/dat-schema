@@ -1,0 +1,39 @@
+type CraftingBenchOptions @tags(list: ["crafting"]) {
+  _: rid
+  Order: i32
+  AddMod: Mods
+  Cost_BaseItemTypes: [BaseItemTypes]
+  Cost_Values: [i32]
+  RequiredLevel: i32
+  Name: string
+  CraftingBenchCustomAction: CraftingBenchCustomActions
+  ItemClasses: [ItemClasses]
+  Links: i32
+  SocketColours: string
+  Sockets: i32
+  ItemQuantity: i32
+  _: [i32]
+  Description: string
+  IsDisabled: bool
+  IsAreaOption: bool
+  RecipeIds: [RecipeUnlockDisplay] @ref(column: "RecipeId")
+  Tier: i32
+  CraftingItemClassCategories: [CraftingItemClassCategories]
+  _: i32
+  UnlockCategory: CraftingBenchUnlockCategories
+  UnveilsRequired: i32
+  UnveilsRequired2: i32
+  _: [rid]
+  _: [rid]
+  _: i32
+  _: i32
+  _: rid
+  AddEnchantment: Mods
+  SortCategory: CraftingBenchSortCategories
+  _: rid
+  _: bool
+  _: i32
+  _: Stats
+  _: Stats
+  _: Stats
+}
