@@ -2369,8 +2369,7 @@ type Expedition2Recipes {
   _: string
   _: bool
   _: i32
-  _: bool
-  _: i32
+  RewardGemLevel: i32
   QuestFlag: QuestFlags
   Category: ExpeditionCategory
   RuneWeights: [Expedition2RunesWeights]
@@ -2391,25 +2390,24 @@ type Expedition2Runes {
   _: rid # All rows empty
   ArchnemesisMod: ArchnemesisMods
   ArchnemesisModPower: ArchnemesisMods
-  _: i32
   TomeArt: string
   RemnantArt: string
-  ModType: ModType
+  Mod: Mods
   EnemyArt: string
-  _: string
+  TomeArt2: string
 }
 
 # Added 0.5
 type Expedition2RunesWeights {
   Id: string
-  _: i32
-  _: i32
+  RecipeRuneCount: i32
+  HighlightedRuneSlot: i32
   HighlightedRune: Expedition2Runes
   MinAreaLevel: i32
   MaxAreaLevel: i32
   _: i32
-  _: string
-  _: bool
+  TableComments: string
+  _: bool # possibly GrandExpeditionExclusive
   _: i32
 }
 
